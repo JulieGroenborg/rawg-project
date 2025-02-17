@@ -11,21 +11,6 @@ interface Props {
 }
 
 const PlatformIconsList = ({ platforms }: Props) => {
-  // interface IconMap{
-  //     [key: string]: IconType
-  // }
-
-  // const iconMap: IconMap ={
-  //     pc: FaWindows,
-  //     playstation: FaPlaystation,
-  //     xbox: FaXbox,
-  //     mac: FaApple,
-  //     linux: FaLinux,
-  //     android: FaAndroid,
-  //     ios: MdPhoneIphone,
-  //     nintendo: SiNintendo
-  // }
-
   const getIcon = (slug: string) => {
     switch (slug) {
       case "pc":
